@@ -12,7 +12,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <main className={styles.main} style={{ backgroundImage: `url("https://dazedimg-dazedgroup.netdna-ssl.com/900/azure/dazed-prod/1300/6/1306114.jpg")`}}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Chilis 2!</a>
         </h1>
